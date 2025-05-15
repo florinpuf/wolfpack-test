@@ -38,7 +38,7 @@ export const updateOrderStatus = async (req: Request, res: Response) => {
         const order = await Order.findByIdAndUpdate(
             req.params.id,
             { status },
-            { new: false }
+            { new: true }
         );
         if (!order) return res.status(404).json({ message: 'Not found' });
         res.json(order);
