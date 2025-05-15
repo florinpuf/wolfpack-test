@@ -24,9 +24,9 @@ This project is a submission for the Wolfpack test. It is built using TypeScript
 - [x] PATCH /admin/orders/:id: Update the status of an order.
 
 ### API Routes
-- [x] GET /orders/: List all orders for a user.
+- [x] GET /orders/: List all orders.
 - [x] POST /orders/: Create a new order.
-- [x] PATCH /orders/:id: Update an existing order.
+- [x] PATCH /orders/:id: Update the quantity of an existing order.
 
 ### Middleware
 - [x] validateDto: Validates request payloads using DTOs.
