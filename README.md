@@ -1,2 +1,0 @@
-# wolfpack-test
-Wolfpack Submission
